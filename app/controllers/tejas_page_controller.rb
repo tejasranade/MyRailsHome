@@ -1,8 +1,9 @@
 class TejasPageController < ApplicationController
-  def home
-  	@var1 = 'Hello World!'
+  def home 
+  	@title = 'Home'
   end
 
-  def contact
+  def contact 
+  	@title = 'Contact'
   end
 end
