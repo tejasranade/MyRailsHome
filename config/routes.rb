@@ -1,4 +1,8 @@
 Tejas::Application.routes.draw do
+  get "tejas_page/home"
+
+  get "tejas_page/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
